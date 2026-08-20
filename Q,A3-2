@@ -1,0 +1,15 @@
+# user requirements for loan eligibility
+cs = input("credit score: ")
+
+an = input("annual income: ")
+
+y =  input("years at current job: ")
+
+# check eligibility
+if int(cs) >= 700 and int(an) >= 35000 and int(y) >= 2:
+
+     # if requirements are met, print "Loan accepted"
+     print ("Loan accepted")
+else:
+     # if not, then print "Loan denied"
+     print ("Loan denied")
