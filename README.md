@@ -37,7 +37,7 @@ Loan accepted
 START
 
 INPUT credit score
-INPUT annual income
+INPUT rannual income
 INPUT years at current job
 
 IF credit score is greater than or equal to 700
